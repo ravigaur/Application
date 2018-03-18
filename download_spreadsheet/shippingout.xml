@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>GA_TMW Credentials</comment>
+<entry key="keyFilePath">/home/ravi/Desktop/DesktopData/RoversideCredential/GA/client_secrets.p12</entry>
+<entry key="serviceEmail">15958313925-75gp5mmluora3oh9596bdl5917lfilif@developer.gserviceaccount.com</entry>
+<entry key="viewId">58190809</entry>
+<entry key="outPutCSVPath">/home/ravi/Desktop/my/BqUpload/output_tmw.csv</entry>
+<entry key="startDate"></entry>
+<entry key="endDate"></entry>
+<entry key="dimensions">ga:date,ga:deviceCategory,ga:medium,ga:channelGrouping</entry>
+<entry key="metrics">ga:sessions,ga:transactions,ga:transactionRevenue,ga:itemQuantity,ga:entrances,ga:bounces,ga:transactionShipping,ga:transactionTax</entry>
+<entry key="localFilePath">/home/ravi/Desktop/Talend/TOS_DI-20161026_1219-V6.3.0/workspace/biquery_bulk.txt</entry>
+<entry key="clientID">1095398692037-6hn519vj80a98lbq8ep8l42v471icim2.apps.googleusercontent.com</entry>
+<entry key="clientSecret">dTJm8RTI1xUI4hRExCIeosg0</entry>
+<entry key="projectId">integra-learning</entry>
+<entry key="authorizationCode">4/r3kQstZB3Hrcdpf_DSczM1JqYWfU0Xglh5PpsbCLRLw</entry>
+<entry key="dataSetName">executive_channel_dashboard</entry>
+<entry key="tableName">ga_daily_device_channel_medium</entry>
+<entry key="accessKey">GOOGWSZLV43AE5KUF3X3</entry>
+<entry key="secretKey">VTFQirCGnif8wHj2Kjh85gxhwc8ckx52D5hCcPNW</entry>
+<entry key="bucketName">talend-learning</entry>
+<entry key="bucketFilePath">gs://talend-learning/biquery_bulk.txt</entry>
+<entry key="tokenFilePath">/home/ravi/Desktop/Talend/TOS_DI-20161026_1219-V6.3.0/workspace/token.properties</entry>
+<entry key="host">localhost</entry>
+<entry key="port">22</entry>
+<entry key="user">ravi</entry>
+<entry key="password">raviji123</entry>
+<entry key="commandOne">query=`cat /home/ravi/Desktop/ShippingSQL/tmw_shipping_data.sql`</entry>
+<entry key="commandTwo">query=`cat /home/ravi/Desktop/my/GAQuery/ga_daily_device_channel_medium.sql`</entry>
+<entry key="commandThree">/home/ravi/Desktop/my/Gcloud/google-cloud-sdk/bin/bq query -n 10000 --destination_table=executive_channel_dashboard.tmw_channels_data_out $query</entry>
+</properties>
