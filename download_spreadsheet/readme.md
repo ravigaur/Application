@@ -5,9 +5,9 @@ This component is use for download spreadsheet using sheets api in python. This 
 
 	
 1. Run Below command one by one -
-	sudo apt-get update
-    	sudo apt-get -y install python-pip
-     	pip install --upgrade google-api-python-client
+	(i)   sudo apt-get update
+    	(ii)  sudo apt-get -y install python-pip
+     	(iii) pip install --upgrade google-api-python-client
 	
 2. Now go to the below link - 
 https://console.developers.google.com/apis/library/sheets.googleapis.com
