@@ -26,22 +26,22 @@ This component is use for download spreadsheet using sheets api in python. This 
 12. Click the download icon (Download JSON) button to the right of the client ID.
 	
 13.  Move this file to your working directory and rename it client_secret.json.
-14.  Give access permission to the folder in which you want to download the file using below command
+14.  Give access permission to the folder in which you want to download the file using below command<br />
 	 sudo chmod 777 -R dirpath
 15.  Fill the credential in ini file , And run below command.
 16.  python fileDownloadfromGdrive.py 'fileDownloadfromGdrive.ini'
 
-17. Ini file parameter description are below.
-    (i) clientsecretkeypath = your dir path/client_secret.json
-    (ii) spreadsheetid = your spreadsheet id
-    (iii) filename = file name you want to save
-    (iv) filepath = file path where you want to save
+17. Ini file parameter description are below.<br />
+    (i) clientsecretkeypath = your dir path/client_secret.json<br />
+    (ii) spreadsheetid = your spreadsheet id<br />
+    (iii) filename = file name you want to save<br />
+    (iv) filepath = file path where you want to save<br />
     (v) mimetype = application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
 
-18. Mime list is below:		
-    (i) MS Excel = application/vnd.openxmlformats-officedocument.spreadsheetml.sheet 
-    (ii) Open Office sheet = application/x-vnd.oasis.opendocument.spreadsheet 
-    (iii) PDF = application/pdf 
-    (iv) CSV (first sheet only) = text/csv 
-    (v) TSV (first sheet only)  = text/tab-separated-values 
+18. Mime list is below:	<br />	
+    (i) MS Excel = application/vnd.openxmlformats-officedocument.spreadsheetml.sheet <br />
+    (ii) Open Office sheet = application/x-vnd.oasis.opendocument.spreadsheet <br />
+    (iii) PDF = application/pdf<br /> 
+    (iv) CSV (first sheet only) = text/csv <br />
+    (v) TSV (first sheet only)  = text/tab-separated-values <br />
     (vi) HTML (zipped) = application/zip
